@@ -15,15 +15,27 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
+    <script>
+      var dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        'event': 'error_transaction',
+        'url': document.location.pathname,
+
+
+      });
+    </script>
+
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58918411-20"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58918411-20"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-58918411-20');
-</script>
+</script> -->
 
 <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
 	<link rel="stylesheet" href="style.css" type="text/css" />
