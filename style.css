@@ -1,0 +1,251 @@
+/*
+* multi-line comment
+*/
+
+
+/* Google Maps API  START */
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+/* Google Maps API  END */
+
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+h3{ font-size:1.3em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+/* you can put your code all in one line like above */
+#page{ margin: 20px; }
+
+/* or on different lines like below */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* but try and be as concise as possible */
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content, #content_images, #content_contact{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+
+img.social {
+  width: 5%;
+  height: auto;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+
+
+/* multiple styles seperated by a , */
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+
+
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+
+    http://www.designbootstrap.com/
+
+    License: MIT
+========================================================  */
+
+/*============================================================
+BACKGROUND COLORS
+============================================================*/
+.db-bk-color-one {
+    background-color: #f55039;
+}
+
+.db-bk-color-two {
+    background-color: #46A6F7;
+}
+
+.db-bk-color-three {
+    background-color: #47887E;
+}
+
+.db-bk-color-six {
+    background-color: #F59B24;
+}
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.db-padding-btm {
+    padding-bottom: 50px;
+}
+.db-button-color-square {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+    .db-button-color-square:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: none;
+    }
+
+
+.db-pricing-eleven {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #fff;
+    line-height: 30px;
+}
+
+    .db-pricing-eleven ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+        .db-pricing-eleven ul li {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+
+            .db-pricing-eleven ul li i {
+                margin-right: 5px;
+            }
+
+
+    .db-pricing-eleven .price {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 40px 20px 20px 20px;
+        font-size: 60px;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+        .db-pricing-eleven .price small {
+            color: #B8B8B8;
+            display: block;
+            font-size: 12px;
+            margin-top: 22px;
+        }
+
+    .db-pricing-eleven .type {
+        background-color: #52E89E;
+        padding: 50px 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .db-pricing-eleven .pricing-footer {
+        padding: 20px;
+    }
+
+.db-attached > .col-lg-4,
+.db-attached > .col-lg-3,
+.db-attached > .col-md-4,
+.db-attached > .col-md-3,
+.db-attached > .col-sm-4,
+.db-attached > .col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+    margin-top: 10px;
+}
+
+    .db-pricing-eleven.popular .price {
+        padding-top: 80px;
+    }
